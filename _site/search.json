@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "This is research I do and things I make"
+  },
+  {
+    "objectID": "research.html#publications",
+    "href": "research.html#publications",
+    "title": "Research",
+    "section": "Publications",
+    "text": "Publications\n\nThat one\nThe other ones that don’t count"
+  },
+  {
+    "objectID": "research.html#software",
+    "href": "research.html#software",
+    "title": "Research",
+    "section": "Software",
+    "text": "Software\n\nREBL package\nREBL app\nSMdata\nSMdocs\nSMexplorer"
+  },
+  {
+    "objectID": "research.html#conferences",
+    "href": "research.html#conferences",
+    "title": "Research",
+    "section": "Conferences",
+    "text": "Conferences\n\nThe one\nThe other"
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "CV",
+    "section": "",
+    "text": "This is my CV in HTML with a download button for PDF"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Chris Donovan",
+    "section": "",
+    "text": "This is my website"
+  }
+]
