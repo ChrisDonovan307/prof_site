@@ -2,9 +2,9 @@
   {
     "objectID": "research.html",
     "href": "research.html",
-    "title": "Research",
+    "title": "Projects",
     "section": "",
-    "text": "This is research I do and things I make"
+    "text": "These are things I do"
   },
   {
     "objectID": "research.html#publications",
@@ -18,7 +18,7 @@
     "href": "research.html#software",
     "title": "Research",
     "section": "Software",
-    "text": "Software\n\nREBL package\nREBL app\nSMdata\nSMdocs\nSMexplorer"
+    "text": "Software\n\nREBL package\n\n\nREBLcalc\n\n\nSMdata\n\n\nSMdocs\n\n\nSMexplorer\n\n\n\n\nWebsite text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here.\n\n\n\n\n\n\nCDAE1020 Grade Calculator\n\n\n\n\nText here"
   },
   {
     "objectID": "research.html#conferences",
@@ -39,6 +39,69 @@
     "href": "index.html",
     "title": "Chris Donovan",
     "section": "",
-    "text": "This is my website"
+    "text": "Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here."
+  },
+  {
+    "objectID": "index.html#section-1",
+    "href": "index.html#section-1",
+    "title": "Chris Donovan",
+    "section": "",
+    "text": "Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here."
+  },
+  {
+    "objectID": "index.html#section-2",
+    "href": "index.html#section-2",
+    "title": "Chris Donovan",
+    "section": "Section 2",
+    "text": "Section 2"
+  },
+  {
+    "objectID": "research.html#rebl",
+    "href": "research.html#rebl",
+    "title": "Projects",
+    "section": "REBL",
+    "text": "REBL\n\nREBL package\n\n\nREBLcalc"
+  },
+  {
+    "objectID": "research.html#sustainability-metrics",
+    "href": "research.html#sustainability-metrics",
+    "title": "Projects",
+    "section": "Sustainability Metrics",
+    "text": "Sustainability Metrics\n\nSMdata\n\n\nSMdocs\n\n\nSMexplorer\n\n\n\n\nWebsite text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here.\n\n\n\n\n\n\nCDAE1020 Grade Calculator\n\n\n\n\nText here"
+  },
+  {
+    "objectID": "research.html#agconnect",
+    "href": "research.html#agconnect",
+    "title": "Projects",
+    "section": "AgConnect",
+    "text": "AgConnect\nText here"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "These are things I do"
+  },
+  {
+    "objectID": "projects.html#rebl",
+    "href": "projects.html#rebl",
+    "title": "Projects",
+    "section": "REBL",
+    "text": "REBL\n\nREBL package\n\n\nREBLcalc"
+  },
+  {
+    "objectID": "projects.html#sustainability-metrics",
+    "href": "projects.html#sustainability-metrics",
+    "title": "Projects",
+    "section": "Sustainability Metrics",
+    "text": "Sustainability Metrics\n\nSMdata\n\n\nSMdocs\n\n\nSMexplorer\n\n\n\n\nWebsite text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here.\n\n\n\n\n\n\nCDAE1020 Grade Calculator\n\n\n\n\nText here"
+  },
+  {
+    "objectID": "projects.html#agconnect",
+    "href": "projects.html#agconnect",
+    "title": "Projects",
+    "section": "AgConnect",
+    "text": "AgConnect\nText here"
   }
 ]

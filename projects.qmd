@@ -1,0 +1,42 @@
+---
+title: Projects
+---
+
+These are things I do
+
+## REBL
+### REBL package
+### REBLcalc
+
+## Sustainability Metrics
+### SMdata
+### SMdocs
+### SMexplorer
+
+<div style="float: right; width: 25%; margin-right: 10px; margin-left: 10px; margin-top: 10px; margin-bottom: 0px;">
+  <img src="assets/images/SMexplorer.png" alt="alt-text" style="width: 100%;">
+</div>
+
+<div class="text-box" style="padding-left: 0px !important;">
+  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. 
+</div>
+
+<div style="clear: both;"></div>
+
+
+### CDAE1020 Grade Calculator
+
+<div style="float: left; width: 50%; margin-right: 20px; margin-left: 10px; margin-top: 10px; margin-bottom: 0px !important;">
+  <img src="assets/images/grade_analysis_app.png" alt="alt-text" style="width: 100%; display: block;">
+</div>
+
+<div>
+  Text here
+</div>
+
+<div style="clear: both;"></div>
+
+
+## AgConnect
+
+Text here

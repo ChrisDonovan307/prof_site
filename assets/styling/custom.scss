@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap');
+
+/*-- scss:defaults --*/
+$h2-font-size:          1.6rem !default;
+$headings-font-weight:  500 !default;
+
+/*-- color variables --*/
+$theme-text: #282828;
+$theme-text-alt: #f2e5bc;
+$theme-background: #f9f5d7;
+$theme-background-alt: #3c3836;
+$theme-darker-beige: #bdae93;
+$theme-darkest-beige: #a89984;
+$theme-green: #689D6A;
+$theme-purple: #b16286;
+
+/*-- scss:rules --*/
+body {
+  color: $theme-text;
+  background-color: $theme-background;
+  font-family: "Lora";
+}
+
+// Quarto vars ---------------------------------------------------------
+// The left hand sidebar
+$grid-sidebar-width: 300px !default;
+
+// The main body
+$grid-body-width: 1200px !default;
+
+// The right hand margin bar
+$grid-margin-width: 300px !default;
+
+// The gutter that appears between the above columns
+$grid-column-gutter-width: 1.5rem !default;
+
+
+/* Navigation bar ----------------------------------------------------- */
+.navbar {
+  background-color: $theme-background-alt;
+}
+
+// main title
+.navbar-brand {
+  color: $theme-text-alt;
+}
+
+.navbar-brand:hover {
+  color: $theme-purple; // main title
+}
+
+.navbar-brand.active {
+  color: $theme-darker-beige;
+}
+
+.navbar-nav .nav-link {
+  color: $theme-text-alt;
+}
+
+.navbar-nav .nav-link:hover {
+  color: $theme-purple !important;
+  // text-decoration: underline;
+}
+
+.navbar-nav .nav-link.active {
+  color: $theme-green;
+  // text-decoration: underline;
+}
+
+// Hamburger icon - This is the worst
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'><path stroke='%23f2e5bc' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>") !important;
+}
+
+// Search icon
+.navbar #quarto-search.type-overlay .aa-Autocomplete svg.aa-SubmitIcon {
+  width: 26px;
+  height: 26px;
+  color: $theme-text-alt;
+  opacity: 1;
+}
+.navbar #quarto-search.type-overlay .aa-Autocomplete svg.aa-SubmitIcon:hover {
+  color: $theme-purple !important;
+}
+
+// GitHub Icon, but not search
+.navbar .quarto-navbar-tools .quarto-navigation-tool {
+  color: $theme-text-alt;
+  // how to make bigger?
+}
+.navbar .quarto-navbar-tools .quarto-navigation-tool:hover {
+  color: $theme-purple !important; // Not working
+}
+
+
+// Sidebar -------------------------------------------------------------------------
+.sidebar nav[role='doc-toc'] ul > li > a.active {
+  color: $theme-green !important;
+  border-left: $theme-green !important;
+}
+
+.sidebar nav[role='doc-toc'] ul > li > a:hover {
+  color: $theme-purple !important;
+  border-left: $theme-purple !important;
+}
+
+// Second level - this is janky though
+.sidebar nav[role='doc-toc'] ul > li > ul > li > a.active {
+  color: $theme-green !important;
+  border-left: $theme-green !important;
+}
+
+.sidebar nav[role='doc-toc'] ul > li > ul > li > a:hover {
+  color: $theme-purple !important;
+  border-left: $theme-purple !important;
+}
+
+
+// Github Dropdown
+
+.dropdown-item {
+  background-color: $theme-background;
+  border: 1px solid $theme-background-alt;
+}
+.dropdown-item:hover {
+  background-color: $theme-darker-beige;
+}
+
+// Text boxes and such -------------------------------------------------------------
+
+.container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.image-box {
+  width: 30%;
+}
+
+.image-box img {
+  width: 100%;
+  height: auto;
+}
+
+.text-box {
+  padding: 10px;
+}

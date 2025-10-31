@@ -1,5 +1,17 @@
 ---
-title: ''
+title: 'Chris Donovan'
+subtitle: 'Human Man-Child'
 ---
 
-This is my website
+## Section 1
+
+<div style="float: left; width: 25%; margin-right: 20px; margin-left: 10px; margin-top: 10px; margin-bottom: 0px;">
+  <img src="assets/images/face.jpg" alt="alt-text" style="width: 100%;">
+</div>
+
+<div class="text-box">
+  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.
+</div>
+
+
+## Section 2
