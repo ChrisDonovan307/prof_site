@@ -3,8 +3,6 @@ title: 'Chris Donovan'
 subtitle: 'Human Man-Child'
 ---
 
-## Section 1
-
 <div style="float: left; width: 25%; margin-right: 20px; margin-left: 10px; margin-top: 10px; margin-bottom: 0px;">
   <img src="assets/images/face.jpg" alt="alt-text" style="width: 100%;">
 </div>
@@ -14,4 +12,8 @@ subtitle: 'Human Man-Child'
 </div>
 
 
-## Section 2
+## Contact 
+
+You reach me by email at: <a href="mailto:christopher.donovan@uvm.edu">christopher.donovan@uvm.edu</a>.
+
+Find my <a href="https://www.github.com/chrisdonovan307">GitHub page here</a>.

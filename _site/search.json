@@ -1,31 +1,31 @@
 [
   {
-    "objectID": "research.html",
-    "href": "research.html",
+    "objectID": "projects.html",
+    "href": "projects.html",
     "title": "Projects",
     "section": "",
     "text": "These are things I do"
   },
   {
-    "objectID": "research.html#publications",
-    "href": "research.html#publications",
-    "title": "Research",
-    "section": "Publications",
-    "text": "Publications\n\nThat one\nThe other ones that don’t count"
+    "objectID": "projects.html#rebl",
+    "href": "projects.html#rebl",
+    "title": "Projects",
+    "section": "REBL",
+    "text": "REBL\n\nPackage\n\n  \n    \n  \n\n\nThe REBL package streamlines\n\n\n\n\n\n\nShiny\n\n  \n    \n  \n\n\nWebsite text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here."
   },
   {
-    "objectID": "research.html#software",
-    "href": "research.html#software",
-    "title": "Research",
-    "section": "Software",
-    "text": "Software\n\nREBL package\n\n\nREBLcalc\n\n\nSMdata\n\n\nSMdocs\n\n\nSMexplorer\n\n\n\n\nWebsite text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here.\n\n\n\n\n\n\nCDAE1020 Grade Calculator\n\n\n\n\nText here"
+    "objectID": "projects.html#sustainability-metrics",
+    "href": "projects.html#sustainability-metrics",
+    "title": "Projects",
+    "section": "Sustainability Metrics",
+    "text": "Sustainability Metrics\n\nSMdata\nSMdata GitHub Repository\n\n\nSMdocs\nSMdocs Website\n\n\nSMexplorer\n\n  \n    \n  \n\n\nWebsite text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here.\n\n\n\n\nLink to SMexplorer app\n\n\nGrade Calculator\n\n  \n    \n  \n\n\nThe Grade Calculator is a Shiny app to make life easier for TAs, specifically in CDAE 1020: World Food, Population, and Development. It takes a csv of grades and returns interactive graphs, summary statistics, and statistical tests to compare grades across cohorts."
   },
   {
-    "objectID": "research.html#conferences",
-    "href": "research.html#conferences",
-    "title": "Research",
-    "section": "Conferences",
-    "text": "Conferences\n\nThe one\nThe other"
+    "objectID": "projects.html#agconnect",
+    "href": "projects.html#agconnect",
+    "title": "Projects",
+    "section": "AgConnect",
+    "text": "AgConnect\nText here"
   },
   {
     "objectID": "cv.html",
@@ -49,59 +49,38 @@
     "text": "Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here."
   },
   {
-    "objectID": "index.html#section-2",
-    "href": "index.html#section-2",
+    "objectID": "index.html#contact",
+    "href": "index.html#contact",
     "title": "Chris Donovan",
-    "section": "Section 2",
-    "text": "Section 2"
+    "section": "Contact",
+    "text": "Contact\nYou reach me by email at: christopher.donovan@uvm.edu.\nFind my GitHub page here."
   },
   {
-    "objectID": "research.html#rebl",
-    "href": "research.html#rebl",
-    "title": "Projects",
-    "section": "REBL",
-    "text": "REBL\n\nREBL package\n\n\nREBLcalc"
+    "objectID": "cv.html#research-statement",
+    "href": "cv.html#research-statement",
+    "title": "CV",
+    "section": "Research Statement",
+    "text": "Research Statement\nSomething something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something"
   },
   {
-    "objectID": "research.html#sustainability-metrics",
-    "href": "research.html#sustainability-metrics",
-    "title": "Projects",
-    "section": "Sustainability Metrics",
-    "text": "Sustainability Metrics\n\nSMdata\n\n\nSMdocs\n\n\nSMexplorer\n\n\n\n\nWebsite text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here.\n\n\n\n\n\n\nCDAE1020 Grade Calculator\n\n\n\n\nText here"
+    "objectID": "cv.html#education",
+    "href": "cv.html#education",
+    "title": "CV",
+    "section": "Education",
+    "text": "Education\n\nM.S. Community Development and Applied Economics\nSecond thing\nThird thing"
   },
   {
-    "objectID": "research.html#agconnect",
-    "href": "research.html#agconnect",
-    "title": "Projects",
-    "section": "AgConnect",
-    "text": "AgConnect\nText here"
+    "objectID": "cv.html#publications",
+    "href": "cv.html#publications",
+    "title": "CV",
+    "section": "Publications",
+    "text": "Publications\n\nFirst thing\nSecond thing\nThird thing"
   },
   {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Projects",
-    "section": "",
-    "text": "These are things I do"
-  },
-  {
-    "objectID": "projects.html#rebl",
-    "href": "projects.html#rebl",
-    "title": "Projects",
-    "section": "REBL",
-    "text": "REBL\n\nREBL package\n\n\nREBLcalc"
-  },
-  {
-    "objectID": "projects.html#sustainability-metrics",
-    "href": "projects.html#sustainability-metrics",
-    "title": "Projects",
-    "section": "Sustainability Metrics",
-    "text": "Sustainability Metrics\n\nSMdata\n\n\nSMdocs\n\n\nSMexplorer\n\n\n\n\nWebsite text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here.\n\n\n\n\n\n\nCDAE1020 Grade Calculator\n\n\n\n\nText here"
-  },
-  {
-    "objectID": "projects.html#agconnect",
-    "href": "projects.html#agconnect",
-    "title": "Projects",
-    "section": "AgConnect",
-    "text": "AgConnect\nText here"
+    "objectID": "cv.html#software",
+    "href": "cv.html#software",
+    "title": "CV",
+    "section": "Software",
+    "text": "Software\n\nFirst thing\nSecond thing\nThird thing"
   }
 ]

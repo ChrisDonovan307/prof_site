@@ -3,3 +3,25 @@ title: CV
 ---
 
 This is my CV in HTML with a download button for PDF
+
+## Research Statement
+
+Something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something 
+
+## Education
+
+* M.S. Community Development and Applied Economics
+* Second thing
+* Third thing
+
+## Publications
+
+* First thing
+* Second thing
+* Third thing
+
+## Software
+
+* First thing
+* Second thing
+* Third thing

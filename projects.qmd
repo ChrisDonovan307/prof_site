@@ -1,38 +1,90 @@
 ---
 title: Projects
+highlight-style: zenburn
 ---
 
 These are things I do
 
 ## REBL
-### REBL package
-### REBLcalc
+### Package
 
-## Sustainability Metrics
-### SMdata
-### SMdocs
-### SMexplorer
+```{=html}
+<a href="https://chrisdonovan307.github.io/rebl/index.html" target="_blank">
+  <div class="link-block" style="float: left; width: 25%; margin-right: 10px;">
+    <img src="assets/images/rebl_package.png" alt="alt-text" style="width: 100%; border: 1px solid #000;">
+  </div>
+</a>
+```
 
-<div style="float: right; width: 25%; margin-right: 10px; margin-left: 10px; margin-top: 10px; margin-bottom: 0px;">
-  <img src="assets/images/SMexplorer.png" alt="alt-text" style="width: 100%;">
-</div>
+<p>
+  The
+  <a href="https://chrisdonovan307.github.io/rebl/index.html" target="_blank">REBL package</a>
+  streamlines 
 
-<div class="text-box" style="padding-left: 0px !important;">
-  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. 
-</div>
+</p>
 
 <div style="clear: both;"></div>
 
 
-### CDAE1020 Grade Calculator
+### Shiny
 
-<div style="float: left; width: 50%; margin-right: 20px; margin-left: 10px; margin-top: 10px; margin-bottom: 0px !important;">
-  <img src="assets/images/grade_analysis_app.png" alt="alt-text" style="width: 100%; display: block;">
-</div>
+```{=html}
+<a href="https://cdonov12.w3.uvm.edu/reblcalc/" target="_blank">
+  <div class="link-block" style="float: right; width: 30%; margin-left: 10px;">
+    <img src="assets/images/reblcalc.png" alt="alt-text" style="width: 100%; border: 1px solid #000;">
+  </div>
+</a>
+```
 
-<div>
-  Text here
-</div>
+<p>
+  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. 
+</p>
+
+<div style="clear: both;"></div>
+
+
+## Sustainability Metrics
+### SMdata
+
+[SMdata GitHub Repository](https://www.github.com/Food-Systems-Research-Center)
+
+### SMdocs
+
+[SMdocs Website](https://fsrc.w3.uvm.edu/sustainability_metrics/pages/index.html)
+
+### SMexplorer
+
+```{=html}
+<a href="https://fsrc.w3.uvm.edu/SMexplorer/" target="_blank">
+  <div class="link-block" style="float: right; width: 25%; margin-left: 10px;">
+    <img src="assets/images/smex_slim.png" alt="alt-text" style="width: 100%; border: 1px solid #000;">
+  </div>
+</a>
+```
+
+<p>
+  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. 
+</p>
+
+<div style="clear: both;"></div>
+
+[Link to SMexplorer app](https://fsrc.w3.uvm.edu/SMexplorer/)
+
+
+### Grade Calculator
+
+```{=html}
+<a href="https://www.github.com/ChrisDonovan307/grade_analysis_app" target="_blank" style="text-decoration: none;">
+  <div class="link-block" style="float: left; width: 50%; margin-right: 10px;">
+    <img src="assets/images/grade_analysis_app.png" alt="alt-text" style="width: 100%; display: block; border: 1px solid #000;">
+  </div>
+</a>
+```
+
+<p>The 
+  <a href="https://www.github.com/ChrisDonovan307/grade_analysis_app" target="_blank">Grade Calculator</a>
+  is a Shiny app to make life easier for TAs, specifically in CDAE 1020: World Food, Population, and Development. It takes a csv of grades and returns interactive graphs, summary statistics, and statistical tests to compare grades across cohorts.
+</p>
 
 <div style="clear: both;"></div>
 

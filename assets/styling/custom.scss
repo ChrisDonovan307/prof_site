@@ -11,8 +11,12 @@ $theme-background: #f9f5d7;
 $theme-background-alt: #3c3836;
 $theme-darker-beige: #bdae93;
 $theme-darkest-beige: #a89984;
-$theme-green: #689D6A;
+// $theme-green: #689D6A;
+$theme-green: #427b58;
 $theme-purple: #b16286;
+
+$theme-dark-background: #32302f;
+$theme-dark-foreground: #fbf1c7;
 
 /*-- scss:rules --*/
 body {
@@ -21,18 +25,57 @@ body {
   font-family: "Lora";
 }
 
+// Hyperlinks
+a {
+  color: $theme-green;
+}
+
+a:hover {
+  color: $theme-purple;
+}
+
+h2 {
+  border-bottom: 1px solid $theme-dark-background;
+}
+
+// Turn images into links
+div.link-block {
+  // background-color:  !important;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  // border: 1px solid #000000;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+
+  border-radius: 4px;
+  // padding: 10px 10px 10px 10px; /* insides */
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  margin: 0px; /* outsides: top right bottom left */
+  width: 100%;
+}
+
+div.link-block:hover,
+a:hover > div.link-block {
+  transform: translateY(-4px);
+  // background-color: var(--theme-light-green) !important;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15); /* Thicker, darker shadow */
+}
+
+// Remove link styling from anchors wrapping link-blocks
+a:has(> div.link-block) {
+  text-decoration: none !important;
+  color: inherit;
+}
+
+
 // Quarto vars ---------------------------------------------------------
-// The left hand sidebar
-$grid-sidebar-width: 300px !default;
-
-// The main body
-$grid-body-width: 1200px !default;
-
-// The right hand margin bar
-$grid-margin-width: 300px !default;
-
-// The gutter that appears between the above columns
-$grid-column-gutter-width: 1.5rem !default;
+$grid-sidebar-width: 300px !default; // The left hand sidebar
+$grid-body-width: 1200px !default; // The main body
+$grid-margin-width: 300px !default; // The right hand margin bar
+$grid-column-gutter-width: 1.5rem !default; // The gutter that appears between the above columns
 
 
 /* Navigation bar ----------------------------------------------------- */
@@ -117,7 +160,6 @@ $grid-column-gutter-width: 1.5rem !default;
 
 
 // Github Dropdown
-
 .dropdown-item {
   background-color: $theme-background;
   border: 1px solid $theme-background-alt;
@@ -125,6 +167,7 @@ $grid-column-gutter-width: 1.5rem !default;
 .dropdown-item:hover {
   background-color: $theme-darker-beige;
 }
+
 
 // Text boxes and such -------------------------------------------------------------
 
@@ -145,4 +188,17 @@ $grid-column-gutter-width: 1.5rem !default;
 
 .text-box {
   padding: 10px;
+}
+
+.figure-float {
+  float: left; 
+  width: 50%; 
+  margin: 0px !important;
+}
+
+// Code blocks -----------------------------------------------
+
+code, pre code {
+  background-color: $theme-background-alt !important;
+  // color: $theme-dark-foreground !important;
 }
