@@ -1,31 +1,24 @@
 [
   {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Projects",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Chris Donovan",
     "section": "",
-    "text": "This site is a work in progress\n\n\n\n\n\nIt will hopefully look less garbage soon.\nThese are things I do"
+    "text": "This site is a work in progress\n\n\n\n\n\nIt will hopefully look less garbage soon."
   },
   {
-    "objectID": "projects.html#rebl",
-    "href": "projects.html#rebl",
-    "title": "Projects",
-    "section": "REBL",
-    "text": "REBL\n\nPackage\n\n  \n    \n  \n\n\nThe REBL package streamlines\n\n\n\n\n\n\nShiny\n\n  \n    \n  \n\n\nWebsite text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here."
+    "objectID": "index.html#contact",
+    "href": "index.html#contact",
+    "title": "Chris Donovan",
+    "section": "Contact",
+    "text": "Contact\nYou reach me by email at: christopher.donovan@uvm.edu.\nFind my GitHub page here."
   },
   {
-    "objectID": "projects.html#sustainability-metrics",
-    "href": "projects.html#sustainability-metrics",
-    "title": "Projects",
-    "section": "Sustainability Metrics",
-    "text": "Sustainability Metrics\n\nSMdata\nSMdata GitHub Repository\n\n\nSMdocs\nSMdocs Website\n\n\nSMexplorer\n\n  \n    \n  \n\n\nWebsite text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here.\n\n\n\n\nLink to SMexplorer app\n\n\nGrade Calculator\n\n  \n    \n  \n\n\nThe Grade Calculator is a Shiny app to make life easier for TAs, specifically in CDAE 1020: World Food, Population, and Development. It takes a csv of grades and returns interactive graphs, summary statistics, and statistical tests to compare grades across cohorts."
-  },
-  {
-    "objectID": "projects.html#agconnect",
-    "href": "projects.html#agconnect",
-    "title": "Projects",
-    "section": "AgConnect",
-    "text": "AgConnect\nText here"
+    "objectID": "index.html#projects",
+    "href": "index.html#projects",
+    "title": "Chris Donovan",
+    "section": "Projects",
+    "text": "Projects\nThese are things I do\n\nREBL\n\nR Package\n\n  \n    \n  \n\n\nThe REBL package does things\n\n\n\n\n\n\nREBL Calculator\n\n  \n    \n  \n\n\nWebsite text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here.\n\n\n\n\n\n\n\nSustainability Metrics\n\nSMdata\n\n  \n    \n  \n\nWebsite text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. SMdata GitHub Repository\n\n\n\n\n\nSMdocs\n\n  \n    \n  \n\nWebsite text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. SMdocs Website\n\n\n\n\n\nSMexplorer\n\n  \n    \n  \n\n\nWebsite text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. SMexplorer Link\n\n\n\n\n\n\nGrade Calculator\n\n  \n    \n  \n\n\nThe Grade Calculator is a Shiny app to make life easier for TAs, specifically in CDAE 1020: World Food, Population, and Development. It takes a csv of grades and returns interactive graphs, summary statistics, and statistical tests to compare grades across cohorts.\n\n\n\n\n\n\n\nAgConnect\nText here"
   },
   {
     "objectID": "cv.html",
@@ -61,19 +54,5 @@
     "title": "CV",
     "section": "Software",
     "text": "Software\n\nFirst thing\nSecond thing\nThird thing"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Chris Donovan",
-    "section": "",
-    "text": "This site is a work in progress\n\n\n\n\n\nIt will hopefully look less garbage soon."
-  },
-  {
-    "objectID": "index.html#contact",
-    "href": "index.html#contact",
-    "title": "Chris Donovan",
-    "section": "Contact",
-    "text": "Contact\nYou reach me by email at: christopher.donovan@uvm.edu.\nFind my GitHub page here."
   }
 ]

@@ -3,12 +3,19 @@ project:
 
 website:
   title: "Chris Donovan"
+  page-navigation: true
+  page-footer:
+    left: |
+      <p>
+        Licensed under
+        <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">Creative Commons BY-NC-SA 4.0</a>
+      </p>
+    right: |
+      <p>Made with <a href="https://quarto.org" target="_blank">Quarto</a></p>
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - href: projects.qmd
-        text: Projects
       - href: cv.qmd
         text: CV
     tools:
@@ -27,6 +34,8 @@ format:
       - assets/styling/custom.scss
     css: assets/styling/styles.css
     toc: true
+    toc-depth: 4
+    smooth-scroll: true
     # grid:
       # body-width: 400px
       # sidebar-width: 100px
