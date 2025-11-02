@@ -3,6 +3,12 @@ title: Projects
 highlight-style: zenburn
 ---
 
+::: {.callout-note collapse="true"}
+## This site is a work in progress
+
+It will hopefully look less garbage soon.
+:::
+
 These are things I do
 
 ## REBL

@@ -3,6 +3,12 @@ title: 'Chris Donovan'
 subtitle: 'Human Man-Child'
 ---
 
+::: {.callout-note collapse="true"}
+## This site is a work in progress
+
+It will hopefully look less garbage soon.
+:::
+
 <div style="float: left; width: 25%; margin-right: 20px; margin-left: 10px; margin-top: 10px; margin-bottom: 0px;">
   <img src="assets/images/face.jpg" alt="alt-text" style="width: 100%;">
 </div>

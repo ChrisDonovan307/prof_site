@@ -4,7 +4,7 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "These are things I do"
+    "text": "This site is a work in progress\n\n\n\n\n\nIt will hopefully look less garbage soon.\nThese are things I do"
   },
   {
     "objectID": "projects.html#rebl",
@@ -32,28 +32,7 @@
     "href": "cv.html",
     "title": "CV",
     "section": "",
-    "text": "This is my CV in HTML with a download button for PDF"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Chris Donovan",
-    "section": "",
-    "text": "Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here."
-  },
-  {
-    "objectID": "index.html#section-1",
-    "href": "index.html#section-1",
-    "title": "Chris Donovan",
-    "section": "",
-    "text": "Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here."
-  },
-  {
-    "objectID": "index.html#contact",
-    "href": "index.html#contact",
-    "title": "Chris Donovan",
-    "section": "Contact",
-    "text": "Contact\nYou reach me by email at: christopher.donovan@uvm.edu.\nFind my GitHub page here."
+    "text": "This site is a work in progress\n\n\n\n\n\nIt will hopefully look less garbage soon.\nThis is my CV in HTML with a download button for PDF"
   },
   {
     "objectID": "cv.html#research-statement",
@@ -82,5 +61,19 @@
     "title": "CV",
     "section": "Software",
     "text": "Software\n\nFirst thing\nSecond thing\nThird thing"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Chris Donovan",
+    "section": "",
+    "text": "This site is a work in progress\n\n\n\n\n\nIt will hopefully look less garbage soon."
+  },
+  {
+    "objectID": "index.html#contact",
+    "href": "index.html#contact",
+    "title": "Chris Donovan",
+    "section": "Contact",
+    "text": "Contact\nYou reach me by email at: christopher.donovan@uvm.edu.\nFind my GitHub page here."
   }
 ]

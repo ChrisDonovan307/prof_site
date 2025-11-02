@@ -9,9 +9,11 @@ $theme-text: #282828;
 $theme-text-alt: #f2e5bc;
 $theme-background: #f9f5d7;
 $theme-background-alt: #3c3836;
-$theme-darker-beige: #bdae93;
+$theme-grey: #e9e9e9;
+$theme-darker-beige: #d8cbb2;
 $theme-darkest-beige: #a89984;
-// $theme-green: #689D6A;
+$theme-orange: #d65d0e;
+$theme-blue: #458588;
 $theme-green: #427b58;
 $theme-purple: #b16286;
 
@@ -77,6 +79,27 @@ $grid-body-width: 1200px !default; // The main body
 $grid-margin-width: 300px !default; // The right hand margin bar
 $grid-column-gutter-width: 1.5rem !default; // The gutter that appears between the above columns
 
+// Callouts -------------------------------------------------------------
+.callout-note {
+  background-color: $theme-grey;
+  color: #000;
+  border-color: #000 !important;
+  border-left-color: $theme-orange !important;
+}
+
+.callout.callout-style-default .callout-header[aria-expanded="true"] {
+  background-color: $theme-darker-beige;
+  color: $theme-text;
+}
+
+.callout.callout-style-default .callout-header[aria-expanded="false"] {
+  background-color: $theme-darker-beige;
+  color: $theme-text;
+}
+
+div.callout-note.callout-titled .callout-icon::before {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" style="fill: rgb(214, 93, 14)" class="bi bi-info-circle" viewBox="0 0 16 16"><path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/><path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/></svg>');
+}
 
 /* Navigation bar ----------------------------------------------------- */
 .navbar {

@@ -2,6 +2,12 @@
 title: CV
 ---
 
+::: {.callout-note collapse="true"}
+## This site is a work in progress
+
+It will hopefully look less garbage soon.
+:::
+
 This is my CV in HTML with a download button for PDF
 
 ## Research Statement
