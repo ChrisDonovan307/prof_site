@@ -1,6 +1,5 @@
 ---
 title: 'Chris Donovan'
-subtitle: 'Human Man-Child'
 ---
 
 ::: {.callout-note collapse="true"}
@@ -13,27 +12,23 @@ It will hopefully look less garbage soon.
   <img src="assets/images/face.jpg" alt="alt-text" style="width: 100%;">
 </div>
 
-<div class="text-box">
-  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.
-</div>
+This is my website. It has things that I do. It is clearly not done yet.
 
+I'm a Food Systems Data Scientist at the Food Systems Research Institute at the University of Vermont. I work on food system sustainability, on-farm research networks, and stewarding open and FAIR data. 
 
-## Contact 
+You reach me by email at: <a href="mailto:christopher.donovan@uvm.edu">christopher.donovan@uvm.edu</a>. Find my <a href="https://www.github.com/chrisdonovan307">GitHub page here</a>.
 
-You reach me by email at: <a href="mailto:christopher.donovan@uvm.edu">christopher.donovan@uvm.edu</a>.
+<div style="clear: both;"></div>
 
-Find my <a href="https://www.github.com/chrisdonovan307">GitHub page here</a>.
 
 ## Projects {#projects}
 
-These are things I do
-
-### REBL
-#### R Package
+### Repeated Environmental Behavior Latent Scale
+#### REBL Package
 
 ```{=html}
 <a href="https://chrisdonovan307.github.io/rebl/index.html" target="_blank">
-  <div class="link-block" style="float: left; width: 25%; margin-right: 10px;">
+  <div class="link-block" style="float: left; width: 20%; margin-right: 10px;">
     <img src="assets/images/rebl_package.png" alt="alt-text" style="width: 100%; border: 1px solid #000;">
   </div>
 </a>
@@ -42,7 +37,7 @@ These are things I do
 <p>
   The
   <a href="https://chrisdonovan307.github.io/rebl/index.html" target="_blank">REBL package</a>
-  does things
+  provides easy access to functions used to analyze administrations of the Repeated Environmental Behavior Latent (REBL) Scale, including cleaning surveys, recoding items, validating the model, and test linking to a baseline set of participants. 
 </p>
 
 <div style="clear: both;"></div>
@@ -52,14 +47,18 @@ These are things I do
 
 ```{=html}
 <a href="https://cdonov12.w3.uvm.edu/reblcalc/" target="_blank">
-  <div class="link-block" style="float: right; width: 40%; margin-left: 10px;">
+  <div class="link-block" style="float: right; width: 35%; margin-left: 10px;">
     <img src="assets/images/reblcalc.png" alt="alt-text" style="width: 100%; border: 1px solid #000;">
   </div>
 </a>
 ```
 
 <p>
-  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. 
+    The 
+    <a href="https://cdonov12.w3.uvm.edu/reblcalc/" target="_blank">REBL Calculator</a>
+    is a Shiny application that makes it easy to analyze a survey administration of the REBL Scale. Upload a csv and add some parameters and it will give return model validation outputs, graphs, and new tables with REBL scores to download. The app uses the
+    <a href="https://appsilon.github.io/rhino/" target="_blank">Rhino</a>
+    framework for full-featured Shiny production.
 </p>
 
 <div style="clear: both;"></div>
@@ -70,26 +69,35 @@ These are things I do
 
 ```{=html}
 <a href="https://www.github.com/Food-Systems-Research-Institute/SMdata/" target="_blank">
-  <div class="link-block hex darker" style="float: left; width: 25%; margin-right: 10px;">
+  <div class="link-block hex darker" style="float: left; width: 20%; margin-right: 10px;">
     <img src="assets/images/SMdata.png" alt="alt-text" style="width: 100%">
   </div>
 </a>
 ```
-Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here. [SMdata GitHub Repository](https://www.github.com/Food-Systems-Research-Center)
+
+<p>
+    <a href="https://www.github.com/Food-Systems-Research-Center/SMdata" target="_blank">SMdata</a>
+    is a repository that contains data collection and cleaning for the FSRI Sustainability Metrics project. Most of the wrangling is in R, but geospatial processing is handled in Python. It is also available as an R package, which makes it easy to get access to datasets as well as convenience functions for working with the metrics.
+</p>
 
 <div style="clear: both;"></div>
+
 
 #### SMdocs
 
 ```{=html}
 <a href="https://fsrc.w3.uvm.edu/sustainability_metrics/pages/index.html" target="_blank">
-  <div class="link-block" style="float: right; width: 30%; margin-left: 10px;">
+  <div class="link-block" style="float: right; width: 25%; margin-left: 10px;">
     <img src="assets/images/smdocs.png" alt="alt-text" style="width: 100%; border: 1px solid #000;">
   </div>
 </a>
 ```
 
-Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. Website text here. [SMdocs Website](https://fsrc.w3.uvm.edu/sustainability_metrics/pages/index.html)
+<p>
+    <a href="https://fsrc.w3.uvm.edu/sustainability_metrics/pages/index.html" target="_blank">SMdocs</a>
+    is a website that contains figures and analyses for the Sustainability Metrics project. It includes a description of the indicator selection processes, various figures describing the indicator framework, as well as analyses at the national and regional levels. It is made with 
+    <a href="https://quarto.org/">Quarto</a>.
+</p>
 
 <div style="clear: both;"></div>
 
@@ -98,26 +106,25 @@ Website text here. Website text here. Website text here. Website text here. Webs
 
 ```{=html}
 <a href="https://fsrc.w3.uvm.edu/SMexplorer/" target="_blank">
-  <div class="link-block" style="float: left; width: 30%; margin-right: 10px;">
+  <div class="link-block" style="float: left; width: 25%; margin-right: 10px;">
     <img src="assets/images/smex_slim.png" alt="alt-text" style="width: 100%; border: 1px solid #000;">
   </div>
 </a>
 ```
 
 <p>
-  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. Website text here.  Website text here. 
-  <a href="https://fsrc.w3.uvm.edu/SMexplorer/" target="_blank">SMexplorer Link</a>
+  <a href="https://fsrc.w3.uvm.edu/SMexplorer/" target="_blank">SMexplorer</a>
+  is a Shiny app that explores food system sustainability data in the Northeast. It includes an interactive map, a metric comparison page, a county details dashboard, as well as a metadata table. It uses the
+  <a href="https://thinkr-open.github.io/golem/index.html" target="_blank">Golem</a> framework for production-grade Shiny applications.
 </p>
 
 <div style="clear: both;"></div>
 
-
-
-#### Grade Calculator
+### Grade Calculator
 
 ```{=html}
 <a href="https://www.github.com/ChrisDonovan307/grade_analysis_app" target="_blank" style="text-decoration: none;">
-  <div class="link-block" style="float: right; width: 40%; margin-left: 10px;">
+  <div class="link-block" style="float: right; width: 30%; margin-left: 10px;">
     <img src="assets/images/grade_analysis_app.png" alt="alt-text" style="width: 100%; display: block; border: 1px solid #000;">
   </div>
 </a>
@@ -131,6 +138,16 @@ Website text here. Website text here. Website text here. Website text here. Webs
 <div style="clear: both;"></div>
 
 
+### Projector
+
+<p>
+    The 
+    <a href="https://github.com/ChrisDonovan307/projecter" target="_blank">Projector package</a>
+    is a collection of functions for setting up an R project for data analysis. It includes some project setup tools for file structures and the ".Rprofile" script as well as convenience functions for data wrangling. Some of the project setup tools are borrowed from the 
+    <a href="https://github.com/ngotelli/upscaler" target="_blank">Upscaler</a> package.
+</p>
+
+
 ### AgConnect
 
-Text here
+Work in progress

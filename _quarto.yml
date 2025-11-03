@@ -4,14 +4,6 @@ project:
 website:
   title: "Chris Donovan"
   page-navigation: true
-  page-footer:
-    left: |
-      <p>
-        Licensed under
-        <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">Creative Commons BY-NC-SA 4.0</a>
-      </p>
-    right: |
-      <p>Made with <a href="https://quarto.org" target="_blank">Quarto</a></p>
   navbar:
     left:
       - href: index.qmd
@@ -20,11 +12,16 @@ website:
         text: CV
     tools:
       - icon: github
-        menu: 
-          - text: Personal
-            href: https://github.com/chrisdonovan307
-          - text: FSRI
-            href: https://github.com/Food-Systems-Research-Institute
+        href: https://github.com/chrisdonovan307/site
+  page-footer:
+    left: |
+      <p>
+        Licensed under
+        <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">Creative Commons BY-NC-SA 4.0</a>
+      </p>
+    # right: 
+    #   - icon: github
+    #     href: https://github.com/chrisdonovan307/site
   back-to-top-navigation: true
 
 format:
@@ -39,3 +36,5 @@ format:
     # grid:
       # body-width: 400px
       # sidebar-width: 100px
+
+

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>CV – Chris Donovan</title>
+<title>Chris Donovan</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,7 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -39,7 +59,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-79075ee8ffb5f08bced46d71cf354eec.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-72b077d702d9c7e41ff44b51b989a3c7.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -101,21 +121,7 @@ ul.task-list li input[type="checkbox"] {
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
-    <div class="dropdown">
-      <a href="" title="" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" role="link" aria-label=""><i class="bi bi-github"></i></a>
-      <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
-          <li>
-            <a class="dropdown-item quarto-navbar-tools-item" href="https://github.com/chrisdonovan307">
-            Personal
-            </a>
-          </li>
-          <li>
-            <a class="dropdown-item quarto-navbar-tools-item" href="https://github.com/Food-Systems-Research-Institute">
-            FSRI
-            </a>
-          </li>
-      </ul>
-    </div>
+    <a href="https://github.com/chrisdonovan307/site" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -131,8 +137,14 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#research-statement" id="toc-research-statement" class="nav-link active" data-scroll-target="#research-statement">Research Statement</a></li>
   <li><a href="#education" id="toc-education" class="nav-link" data-scroll-target="#education">Education</a></li>
-  <li><a href="#publications" id="toc-publications" class="nav-link" data-scroll-target="#publications">Publications</a></li>
+  <li><a href="#work-history" id="toc-work-history" class="nav-link" data-scroll-target="#work-history">Work History</a></li>
+  <li><a href="#publications" id="toc-publications" class="nav-link" data-scroll-target="#publications">Publications</a>
+  <ul>
+  <li><a href="#peer-reviewed" id="toc-peer-reviewed" class="nav-link" data-scroll-target="#peer-reviewed">Peer-Reviewed</a></li>
+  <li><a href="#preprint" id="toc-preprint" class="nav-link" data-scroll-target="#preprint">Preprint</a></li>
+  </ul></li>
   <li><a href="#software" id="toc-software" class="nav-link" data-scroll-target="#software">Software</a></li>
+  <li><a href="#conference-presentations" id="toc-conference-presentations" class="nav-link" data-scroll-target="#conference-presentations">Conference Presentations</a></li>
   </ul>
 </nav>
     </div>
@@ -141,7 +153,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">CV</h1>
+<h1 class="title">Chris Donovan</h1>
 </div>
 
 
@@ -158,50 +170,142 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-This site is a work in progress
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-1" class="callout-1-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<p>It will hopefully look less garbage soon.</p>
-</div>
-</div>
-</div>
-<p>This is my CV in HTML with a download button for PDF</p>
 <section id="research-statement" class="level2">
 <h2 class="anchored" data-anchor-id="research-statement">Research Statement</h2>
-<p>Something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something</p>
+<p>I am a food systems data scientist with an interdisciplinary background in environmental science, economics, and behavior. My strengths include quantitative analysis and modeling, with a particular emphasis on open data and reproducible workflows. I contribute to the advancement of scientific rigor and accessibility by developing and applying methods that enable data to be shared, validated, and used across disciplines. Through this work, I help generate insights that support more sustainable, transparent, and equitable food systems.</p>
 </section>
 <section id="education" class="level2">
 <h2 class="anchored" data-anchor-id="education">Education</h2>
-<ul>
-<li>M.S. Community Development and Applied Economics</li>
-<li>Second thing</li>
-<li>Third thing</li>
-</ul>
+<div style="display: grid; grid-template-columns: 70% 30%; gap: 1rem 2rem; align-items: start;">
+    <div>
+        <strong>M.S., Community Development and Applied Economics</strong><br>
+        Department of Community Development and Applied Economics<br>
+        University of Vermont<br>
+        Burlington, Vermont<br>
+    </div>
+    <div>2024</div>
+
+    <div>
+        <strong>Graduate Certificate, Ecological Economics</strong><br>
+        Department of Community Development and Applied Economics<br>
+        University of Vermont<br>
+        Burlington, Vermont<br>
+    </div>
+    <div>2024</div>
+
+    <div>
+        <strong>B.S., Environmental Science, Emphasis in Conservation Biology</strong><br>
+        Prescott College<br>
+        Prescott, Arizona
+    </div>
+    <div>2019</div>
+
+</div>
+</section>
+<section id="work-history" class="level2">
+<h2 class="anchored" data-anchor-id="work-history">Work History</h2>
+<div style="display: grid; grid-template-columns: 60% 40%; gap: 1rem 2rem; align-items: start;">
+
+    <div>
+        <strong>Food Systems Data Scientist</strong><br>
+        Food Systems Research Institute<br>
+        University of Vermont<br>
+        Burlington, Vermont
+    </div>
+    <div>September 2024 – Present</div>
+
+    <div>
+        <strong>Graduate Research Assistant</strong><br>
+        Community Development and Applied Economics<br>
+        University of Vermont<br>
+        Burlington, Vermont
+    </div>
+    <div>September 2022 - September 2024</div>
+
+    <div>
+        <strong>Rare Plant Survey Crew Leader</strong><br>
+        Institute for Applied Ecology<br>
+        Boise, Idaho
+    </div>
+    <div>April 2022 - August 2022</div>
+
+    <div>
+        <strong>Precision Restoration Technician</strong><br>
+        The Nature Conservancy<br>
+        Lander, Wyoming
+    </div>
+    <div>April 2020 - April 2022</div>
+
+    <div>
+        <strong>Environmental Services Intern</strong><br>
+        Ocotillo Wells SVRA<br>
+        Ocotillo Wells, California
+    </div>
+    <div>November 2019 - March 2020</div>
+
+    <div>
+        <strong>Seed Technician</strong><br>
+        Institute for Applied Ecology<br>
+        Silver City, New Mexico
+    </div>
+    <div>August 2019 - November 2019</div>
+
+    <div>
+        <strong>Botanical Field Technician</strong><br>
+        Great Basin Institute<br>
+        Las Vegas, Nevada
+    </div>
+    <div>May 2019 - August 2019</div>
+
+</div>
 </section>
 <section id="publications" class="level2">
 <h2 class="anchored" data-anchor-id="publications">Publications</h2>
-<ul>
-<li>First thing</li>
-<li>Second thing</li>
-<li>Third thing</li>
-</ul>
+<section id="peer-reviewed" class="level3" style="border-bottom: none !important;">
+<h3 style="border-bottom: none !important;" class="anchored" data-anchor-id="peer-reviewed">Peer-Reviewed</h3>
+<div id="refs-pubs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-donovan2024DelayedSeedingNutrient" class="csl-entry" role="listitem">
+Donovan, Christopher, Magdalena Eshleman, and Corinna Riginos. 2024. <span>“Delayed Seeding and Nutrient Amendment Seed Enhancement Technology: Potential to Improve Sagebrush Establishment?”</span> <em>Restoration Ecology</em> 32 (1): e14046. <a href="https://doi.org/10.1111/rec.14046">https://doi.org/10.1111/rec.14046</a>.
+</div>
+</div>
+</section>
+<section id="preprint" class="level3" style="border-bottom: none !important;">
+<h3 style="border-bottom: none !important;" class="anchored" data-anchor-id="preprint">Preprint</h3>
+<div id="refs-preprints" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-donovan2025BeeDiversityCosta" class="csl-entry" role="listitem">
+Donovan, Christopher, Adina Chain-Guadarrama, Alejandra Martinez-Salinas, Natalia Aristizabal, and Taylor Ricketts. 2025. <span>“Bee <span>Diversity</span> in <span>Costa Rica</span>: <span>A National Survey</span> of <span>Coffee Agroecosystems</span>.”</span> OSF. <a href="https://doi.org/10.31219/osf.io/a4uv6_v1">https://doi.org/10.31219/osf.io/a4uv6_v1</a>.
+</div>
+<div id="ref-donovan2025ExtremeWeatherEvents" class="csl-entry" role="listitem">
+Donovan, Christopher, and Trisha Shrum. 2025. <span>“Extreme <span>Weather Events</span>: <span>Perception</span>, <span>Pro-Environmental Behavior</span>, and the <span>Tools</span> to <span>Measure Them</span>.”</span> OSF. <a href="https://doi.org/10.31219/osf.io/9zadu">https://doi.org/10.31219/osf.io/9zadu</a>.
+</div>
+<div id="ref-shrum2024REBLScoreDynamic" class="csl-entry" role="listitem">
+Shrum, Trisha, Christopher Donovan, Sadie Bloch, Emma Cripps, and Ceclia Boyson. 2024. <span>“The <span>REBL Score</span>: <span>A</span> Dynamic Measure of Pro-Environmental Behavior.”</span> OSF. <a href="https://doi.org/10.31219/osf.io/w92se">https://doi.org/10.31219/osf.io/w92se</a>.
+</div>
+</div>
+</section>
 </section>
 <section id="software" class="level2">
 <h2 class="anchored" data-anchor-id="software">Software</h2>
 <ul>
-<li>First thing</li>
-<li>Second thing</li>
-<li>Third thing</li>
+<li><a href="https://www.github.com/tshrum/rebl" target="_blank">REBL Scale R Package</a></li>
+<li><a href="https://www.github.com/ChrisDonovan307/reblcalc" target="_blank">REBL Calculator Shiny App</a></li>
+<li><a href="https://www.github.com/Food-Systems-Research-Institute/SMexplorer" target="_blank">SMexplorer Shiny App</a></li>
+<li><a href="https://www.github.com/Food-Systems-Research-Institute/SMdocs" target="_blank">SMdocs Website</a></li>
+<li><a href="https://www.github.com/Food-Systems-Research-Institute/SMdata" target="_blank">SMdata R Package</a></li>
+<li><a href="https://www.github.com/ChrisDonovan307/grade_analysis_app" target="_blank">Grade Analysis Shiny App</a></li>
+<li><a href="https://www.github.com/ChrisDonovan307/projecter" target="_blank">Projector R Package</a></li>
 </ul>
+</section>
+<section id="conference-presentations" class="level2">
+<h2 class="anchored" data-anchor-id="conference-presentations">Conference Presentations</h2>
+<div id="refs-conferences" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-bekee2025OperationalizingEconomicSustainability" class="csl-entry" role="listitem">
+Bekee, Barituka, Christopher Donovan, Tessa Lawler, Andrew May, and Josiah Taylor. 2025. <span>“Operationalizing Economic Sustainability: <span>A</span> Regional Food Systems Approach [<span>Conference</span> Presentation: <span>Northeast Agriculture</span> and <span>Resource Economics Association</span>].”</span> Burlington, Vermont.
+</div>
+<div id="ref-bekee2025OperationalizingSustainabilityRegional" class="csl-entry" role="listitem">
+Bekee, Barituka, Christopher Donovan‘, Cari Ritzenthaler, and Josiah Taylor. 2025. <span>“Operationalizing Sustainability: <span>A</span> Regional Food Systems Approach [<span>Conference</span> Presentation: <span>Agriculture</span>, <span>Food</span>, and <span>Human Values Society</span>].”</span> Corvallis, Oregon.
+</div>
+</div>
 
 
 </section>
@@ -618,10 +722,8 @@ Licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" targ
       &nbsp;
     </div>
     <div class="nav-footer-right">
-<p>
-Made with <a href="https://quarto.org" target="_blank">Quarto</a>
-</p>
-</div>
+      &nbsp;
+    </div>
   </div>
 </footer>
 
