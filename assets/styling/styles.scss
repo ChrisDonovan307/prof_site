@@ -8,8 +8,10 @@ $headings-font-weight:  500 !default;
 $theme-text: #282828;
 $theme-text-alt: #f2e5bc;
 $theme-background: #f9f5d7;
+$theme-background-lighter: #fffdee;
 $theme-background-alt: #3c3836;
 $theme-grey: #e9e9e9;
+$theme-dark-grey: #bbbbbb;
 $theme-darker-beige: #d8cbb2;
 $theme-darkest-beige: #a89984;
 $theme-orange: #d65d0e;
@@ -71,13 +73,15 @@ div.link-block {
   cursor: pointer;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 
-  border-radius: 4px;
-  padding: 0px;
+  background-color: $theme-background-lighter;
+  border-radius: 3px;
+  border: 1px solid $theme-background-alt;
+  padding: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: left;
-  margin: 0px; /* outsides: top right bottom left */
+  margin: 10px; /* outsides: top right bottom left */
   width: 100%;
 }
 
@@ -86,6 +90,13 @@ a:hover > div.link-block {
   transform: translateY(-4px);
   box-shadow: 0 6px 12px rgba(0,0,0,0.15); /* Thicker, darker shadow */
 }
+
+// // images within link-block
+// div.link-block img {
+//   max-height: 100%;
+//   max-width: 30%;
+//   object-fit: contain;
+// }
 
 // Remove link styling from anchors wrapping link-blocks
 a:has(> div.link-block) {
@@ -119,6 +130,26 @@ a:has(> div.link-block) {
 .link-block.darker img {
   filter: brightness(95%);
   transition: filter 0.2s;
+}
+
+// project-block
+div.project-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  max-height: 180px;
+}
+
+// images within project-block
+div.project-block img {
+  border: 1px solid $theme-dark-grey;
+  max-height: 160px;
+  max-width: 30%;
+}
+
+div.project-block p {
+  padding-top: 10px;
 }
 
 

@@ -28,8 +28,7 @@ format:
   html:
     theme: 
       - cosmo
-      - assets/styling/custom.scss
-    css: assets/styling/styles.css
+      - assets/styling/styles.scss
     toc: true
     toc-depth: 4
     smooth-scroll: true

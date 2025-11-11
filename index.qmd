@@ -2,150 +2,102 @@
 title: 'Chris Donovan'
 ---
 
-::: {.callout-note collapse="true"}
-## This site is a work in progress
-
-It will hopefully look less garbage soon.
-:::
-
-<div style="float: left; width: 25%; margin-right: 20px; margin-left: 10px; margin-top: 10px; margin-bottom: 0px;">
-  <img src="assets/images/face.jpg" alt="alt-text" style="width: 100%;">
+```{=html}
+<div style="display: grid; grid-template-columns: 30% 70%; gap: 10px; margin-bottom: 20px;">
+    <img src="assets/images/face.jpg" alt="alt-text" style="max-width: 100%; height: auto; border: 1px solid #000">
+    <p>
+      This is my website. It has things that I do.
+      <br><br>
+      I'm a Food Systems Data Scientist at the Food Systems Research Institute at the University of Vermont. I work on food system sustainability, on-farm research networks, and stewarding open and FAIR data. 
+      <br><br>
+      You reach me by email at: <a href="mailto:christopher.donovan@uvm.edu">christopher.donovan@uvm.edu</a>. 
+      <br>
+      Find my <a href="https://www.github.com/chrisdonovan307">GitHub page here</a>.
+    </p>
 </div>
-
-This is my website. It has things that I do. It is clearly not done yet.
-
-I'm a Food Systems Data Scientist at the Food Systems Research Institute at the University of Vermont. I work on food system sustainability, on-farm research networks, and stewarding open and FAIR data. 
-
-You reach me by email at: <a href="mailto:christopher.donovan@uvm.edu">christopher.donovan@uvm.edu</a>. Find my <a href="https://www.github.com/chrisdonovan307">GitHub page here</a>.
-
-<div style="clear: both;"></div>
-
+```
 
 ## Projects {#projects}
 
 ### Repeated Environmental Behavior Latent Scale
-#### REBL Package
 
 ```{=html}
 <a href="https://chrisdonovan307.github.io/rebl/index.html" target="_blank">
-  <div class="link-block" style="float: left; width: 20%; margin-right: 10px;">
-    <img src="assets/images/rebl_package.png" alt="alt-text" style="width: 100%; border: 1px solid #000;">
+  <div class="link-block">
+    <div class="project-block">
+      <img src="assets/images/rebl_package.png" alt="alt-text">
+      <p>The <b>REBL package</b> provides easy access to functions used to analyze administrations of the Repeated Environmental Behavior Latent (REBL) Scale, including cleaning surveys, recoding items, validating the model, and test linking to a baseline set of participants.</p>
+    </div>
   </div>
 </a>
-```
 
-<p>
-  The
-  <a href="https://chrisdonovan307.github.io/rebl/index.html" target="_blank">REBL package</a>
-  provides easy access to functions used to analyze administrations of the Repeated Environmental Behavior Latent (REBL) Scale, including cleaning surveys, recoding items, validating the model, and test linking to a baseline set of participants. 
-</p>
-
-<div style="clear: both;"></div>
-
-
-#### REBL Calculator
-
-```{=html}
 <a href="https://cdonov12.w3.uvm.edu/reblcalc/" target="_blank">
-  <div class="link-block" style="float: right; width: 35%; margin-left: 10px;">
-    <img src="assets/images/reblcalc.png" alt="alt-text" style="width: 100%; border: 1px solid #000;">
+  <div class="link-block">
+    <div class="project-block">
+      <p>The <b>REBL Calculator</b> is a Shiny application that makes it easy to analyze a survey administration of the REBL Scale. Upload a csv and add some parameters and it will give return model validation outputs, graphs, and new tables with REBL scores to download. The app uses the Rhino framework for full-featured Shiny production.</p>
+      <img src="assets/images/reblcalc.png" alt="alt-text">
+    </div>
   </div>
 </a>
 ```
-
-<p>
-    The 
-    <a href="https://cdonov12.w3.uvm.edu/reblcalc/" target="_blank">REBL Calculator</a>
-    is a Shiny application that makes it easy to analyze a survey administration of the REBL Scale. Upload a csv and add some parameters and it will give return model validation outputs, graphs, and new tables with REBL scores to download. The app uses the
-    <a href="https://appsilon.github.io/rhino/" target="_blank">Rhino</a>
-    framework for full-featured Shiny production.
-</p>
-
-<div style="clear: both;"></div>
 
 
 ### Sustainability Metrics
-#### SMdata
 
 ```{=html}
 <a href="https://www.github.com/Food-Systems-Research-Institute/SMdata/" target="_blank">
-  <div class="link-block hex darker" style="float: left; width: 20%; margin-right: 10px;">
-    <img src="assets/images/SMdata.png" alt="alt-text" style="width: 100%">
+  <div class="link-block">
+    <div class="project-block">
+      <img src="assets/images/SMdata.png" alt="alt-text" style="border: none !important;">
+      <p><b>SMdata</b> is a repository that contains data collection and cleaning for the FSRI Sustainability Metrics project. Most of the wrangling is in R, but geospatial processing is handled in Python. It is also available as an R package, which makes it easy to get access to datasets as well as convenience functions for working with the metrics.</p>
+    </div>
   </div>
 </a>
-```
 
-<p>
-    <a href="https://www.github.com/Food-Systems-Research-Center/SMdata" target="_blank">SMdata</a>
-    is a repository that contains data collection and cleaning for the FSRI Sustainability Metrics project. Most of the wrangling is in R, but geospatial processing is handled in Python. It is also available as an R package, which makes it easy to get access to datasets as well as convenience functions for working with the metrics.
-</p>
-
-<div style="clear: both;"></div>
-
-
-#### SMdocs
-
-```{=html}
 <a href="https://fsrc.w3.uvm.edu/sustainability_metrics/pages/index.html" target="_blank">
-  <div class="link-block" style="float: right; width: 25%; margin-left: 10px;">
-    <img src="assets/images/smdocs.png" alt="alt-text" style="width: 100%; border: 1px solid #000;">
+  <div class="link-block">
+    <div class="project-block">
+      <p><b>SMdocs</b> is a website that contains figures and analyses for the Sustainability Metrics project. It includes a description of the indicator selection processes, various figures describing the indicator framework, as well as analyses at the national and regional levels. It is made with Quarto.</p>
+      <img src="assets/images/smdocs.png" alt="alt-text">
+    </div>
   </div>
 </a>
-```
 
-<p>
-    <a href="https://fsrc.w3.uvm.edu/sustainability_metrics/pages/index.html" target="_blank">SMdocs</a>
-    is a website that contains figures and analyses for the Sustainability Metrics project. It includes a description of the indicator selection processes, various figures describing the indicator framework, as well as analyses at the national and regional levels. It is made with 
-    <a href="https://quarto.org/">Quarto</a>.
-</p>
-
-<div style="clear: both;"></div>
-
-
-#### SMexplorer
-
-```{=html}
 <a href="https://fsrc.w3.uvm.edu/SMexplorer/" target="_blank">
-  <div class="link-block" style="float: left; width: 25%; margin-right: 10px;">
-    <img src="assets/images/smex_slim.png" alt="alt-text" style="width: 100%; border: 1px solid #000;">
+  <div class="link-block">
+    <div class="project-block">
+      <img src="assets/images/smex_slim.png" alt="alt-text">
+      <p><b>SMexplorer</b> is a Shiny app that explores food system sustainability data in the Northeast. It includes an interactive map, a metric comparison page, a county details dashboard, as well as a metadata table. It uses the Golem production-grade Shiny applications.</p>
+    </div>
   </div>
 </a>
 ```
-
-<p>
-  <a href="https://fsrc.w3.uvm.edu/SMexplorer/" target="_blank">SMexplorer</a>
-  is a Shiny app that explores food system sustainability data in the Northeast. It includes an interactive map, a metric comparison page, a county details dashboard, as well as a metadata table. It uses the
-  <a href="https://thinkr-open.github.io/golem/index.html" target="_blank">Golem</a> framework for production-grade Shiny applications.
-</p>
-
-<div style="clear: both;"></div>
 
 ### Grade Calculator
 
 ```{=html}
-<a href="https://www.github.com/ChrisDonovan307/grade_analysis_app" target="_blank" style="text-decoration: none;">
-  <div class="link-block" style="float: right; width: 30%; margin-left: 10px;">
-    <img src="assets/images/grade_analysis_app.png" alt="alt-text" style="width: 100%; display: block; border: 1px solid #000;">
+<a href="https://www.github.com/ChrisDonovan307/grade_analysis_app" target="_blank">
+  <div class="link-block">
+    <div class="project-block">
+      <p>The <b>Grade Calculator</b> is a Shiny app to make life easier for TAs, specifically in CDAE 1020: World Food, Population, and Development. It takes a csv of grades and returns interactive graphs, summary statistics, and statistical tests to compare grades across cohorts.</p>
+      <img src="assets/images/grade_analysis_app.png" alt="alt-text">
+    </div>
   </div>
 </a>
 ```
 
-<p>The 
-  <a href="https://www.github.com/ChrisDonovan307/grade_analysis_app" target="_blank">Grade Calculator</a>
-  is a Shiny app to make life easier for TAs, specifically in CDAE 1020: World Food, Population, and Development. It takes a csv of grades and returns interactive graphs, summary statistics, and statistical tests to compare grades across cohorts.
-</p>
-
-<div style="clear: both;"></div>
-
 
 ### Projector
 
-<p>
-    The 
-    <a href="https://github.com/ChrisDonovan307/projecter" target="_blank">Projector package</a>
-    is a collection of functions for setting up an R project for data analysis. It includes some project setup tools for file structures and the ".Rprofile" script as well as convenience functions for data wrangling. Some of the project setup tools are borrowed from the 
-    <a href="https://github.com/ngotelli/upscaler" target="_blank">Upscaler</a> package.
-</p>
+```{=html}
+<a href="https://www.github.com/ChrisDonovan307/projecter" target="_blank">
+  <div class="link-block">
+    <div class="project-block">
+      <p>The <b>Projector package</b> is a collection of functions for setting up an R project for data analysis. It includes some project setup tools for file structures and the ".Rprofile" script as well as convenience functions for data wrangling.</p>
+    </div>
+  </div>
+</a>
+```
 
 
 ### AgConnect
