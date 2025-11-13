@@ -17,6 +17,7 @@ $theme-darkest-beige: #a89984;
 $theme-orange: #d65d0e;
 $theme-blue: #458588;
 $theme-green: #427b58;
+$theme-light-green: #7cb893;
 $theme-purple: #b16286;
 
 $theme-dark-background: #32302f;
@@ -138,7 +139,7 @@ div.project-block {
   justify-content: center;
   align-items: center;
   gap: 10px;
-  max-height: 180px;
+  max-height: 250px;
 }
 
 // images within project-block
@@ -299,9 +300,28 @@ div.callout-note.callout-titled .callout-icon::before {
   margin: 0px !important;
 }
 
-// Code blocks -----------------------------------------------
 
+// Code blocks -----------------------------------------------
 code, pre code {
   background-color: $theme-background-alt !important;
   // color: $theme-dark-foreground !important;
+}
+
+
+// Button ----------------------------------------------------
+
+.btn {
+  color: #000;
+  background-color: $theme-light-green;
+  border: 1px solid $theme-background-alt;
+  border-radius: 3px;
+}
+
+.btn:hover {
+  color: #000;
+  background-color: $theme-green;
+  // background-color: $theme-background-lighter;
+  cursor: pointer;
+  border: 1px solid #000;
+  border-radius: 3px;
 }

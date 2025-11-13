@@ -1,0 +1,23 @@
+\begin{thebibliography}{2}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Bekee et~al.(2025{\natexlab{a}})Bekee, Donovan, Lawler, May, and
+  Taylor]{bekee2025OperationalizingEconomicSustainability}
+Barituka Bekee, Christopher Donovan, Tessa Lawler, Andrew May, and Josiah
+  Taylor.
+\newblock Operationalizing economic sustainability: {{A}} regional food systems
+  approach [{{Conference}} presentation: {{Northeast Agriculture}} and
+  {{Resource Economics Association}}], June 2025{\natexlab{a}}.
+
+\bibitem[Bekee et~al.(2025{\natexlab{b}})Bekee, Donovan`, Ritzenthaler, and
+  Taylor]{bekee2025OperationalizingSustainabilityRegional}
+Barituka Bekee, Christopher Donovan`, Cari Ritzenthaler, and Josiah Taylor.
+\newblock Operationalizing sustainability: {{A}} regional food systems approach
+  [{{Conference}} presentation: {{Agriculture}}, {{Food}}, and {{Human Values
+  Society}}], June 2025{\natexlab{b}}.
+
+\end{thebibliography}

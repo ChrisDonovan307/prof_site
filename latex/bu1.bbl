@@ -1,0 +1,17 @@
+\begin{thebibliography}{1}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Donovan et~al.(2024)Donovan, Eshleman, and
+  Riginos]{donovan2024DelayedSeedingNutrient}
+Christopher Donovan, Magdalena Eshleman, and Corinna Riginos.
+\newblock Delayed seeding and nutrient amendment seed enhancement technology:
+  Potential to improve sagebrush establishment?
+\newblock \emph{Restoration Ecology}, 32\penalty0 (1):\penalty0 e14046, 2024.
+\newblock ISSN 1526-100X.
+\newblock \doi{10.1111/rec.14046}.
+
+\end{thebibliography}

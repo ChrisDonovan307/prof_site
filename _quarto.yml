@@ -19,9 +19,6 @@ website:
         Licensed under
         <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">Creative Commons BY-NC-SA 4.0</a>
       </p>
-    # right: 
-    #   - icon: github
-    #     href: https://github.com/chrisdonovan307/site
   back-to-top-navigation: true
 
 format:

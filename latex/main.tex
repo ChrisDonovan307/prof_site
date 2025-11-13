@@ -1,0 +1,204 @@
+\documentclass[a4paper,12pt]{article}
+
+% % fontspec allows you to use TTF/OTF fonts directly
+% \usepackage{fontspec}
+% \defaultfontfeatures{Ligatures=TeX}
+
+% % modified for ShareLaTeX use
+% \setmainfont[
+% SmallCapsFont = Fontin-SmallCaps.otf,
+% BoldFont = Fontin-Bold.otf,
+% ItalicFont = Fontin-Italic.otf
+% ]
+% {Fontin.otf}
+
+\usepackage{url}
+\usepackage{parskip} 	
+
+%other packages for formatting
+\RequirePackage{color}
+\RequirePackage{graphicx}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage[scale=0.9]{geometry}
+
+%tabularx environment
+\usepackage{tabularx}
+
+%for lists within experience section
+\usepackage{enumitem}
+
+% centered version of 'X' col. type
+\newcolumntype{C}{>{\centering\arraybackslash}X} 
+
+%to prevent spillover of tabular into next pages
+\usepackage{supertabular}
+\usepackage{tabularx}
+\newlength{\fullcollw}
+\setlength{\fullcollw}{0.47\textwidth}
+
+%custom \section
+\usepackage{titlesec}				
+\usepackage{multicol}
+\usepackage{multirow}
+
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{10pt}{10pt}
+
+%Setup hyperref package, and colours for links (MUST be before doi package)
+\usepackage[unicode, draft=false]{hyperref}
+\hypersetup{
+    colorlinks,
+    linkcolor={red!50!black},
+    citecolor={blue!50!black},
+    urlcolor={blue!80!black}
+}
+
+%for publications
+\usepackage{natbib}
+\usepackage{bibunits}
+\usepackage{doi}
+\defaultbibliography{../assets/pubs}
+\defaultbibliographystyle{plainnat}
+
+% Remove "References" heading from bibunits
+\renewcommand{\bibsection}{}
+
+%for social icons
+\usepackage{fontawesome5}
+%debug page outer frames
+%\usepackage{showframe}
+
+
+% job listing environments
+\newenvironment{jobshort}[2]
+    {
+    \begin{tabularx}{\linewidth}{@{}l X r@{}}
+    \textbf{#1} & \hfill &  #2 \\[3.75pt]
+    \end{tabularx}
+    }
+    {
+    }
+
+\newenvironment{joblong}[2]
+    {
+    \begin{tabularx}{\linewidth}{@{}l X r@{}}
+    \textbf{#1} & \hfill &  #2 \\[3.75pt]
+    \end{tabularx}
+    \begin{minipage}[t]{\linewidth}
+    \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=3pt,label=--]
+    }
+    {
+    \end{itemize}
+    \end{minipage}    
+    }
+
+
+
+%----------------------------------------------------------------------------------------
+%	BEGIN DOCUMENT
+%----------------------------------------------------------------------------------------
+\begin{document}
+
+% non-numbered pages
+\pagestyle{empty} 
+
+%----------------------------------------------------------------------------------------
+%	TITLE
+%----------------------------------------------------------------------------------------
+
+% \begin{tabularx}{\linewidth}{ @{}X X@{} }
+% \huge{Your Name}\vspace{2pt} & \hfill \emoji{incoming-envelope} email@email.com \\
+% \raisebox{-0.05\height}\faGithub\ username \ | \
+% \raisebox{-0.00\height}\faLinkedin\ username \ | \ \raisebox{-0.05\height}\faGlobe \ mysite.com  & \hfill \emoji{calling} number
+% \end{tabularx}
+
+\begin{tabularx}{\linewidth}{@{} C @{}}
+\Huge{Chris Donovan} \\[7.5pt]
+\href{https://github.com/ChrisDonovan307}{\raisebox{-0.05\height}\faGithub\ ChrisDonovan307} \ $|$ \ 
+% \href{https://linkedin.com/in/username}{\raisebox{-0.05\height}\faLinkedin\ username} \ $|$ \ 
+\href{https://cdonov12.w3.uvm.edu/site}{\raisebox{-0.05\height}\faGlobe \ Site} \ $|$ \ 
+\href{mailto:christopher.donovan@uvm.edu}{\raisebox{-0.05\height}\faEnvelope \ christopher.donovan@uvm.edu} \\
+% \href{tel:+000000000000}{\raisebox{-0.05\height}\faMobile \ +00.00.000.000} \\
+\end{tabularx}
+
+
+%----------------------------------------------------------------------------------------
+% EXPERIENCE SECTIONS
+%----------------------------------------------------------------------------------------
+\section{Summary}
+
+I am a food systems data scientist with an interdisciplinary background in environmental science, economics, and behavior. My strengths include quantitative analysis and modeling, with a particular emphasis on open data and reproducible workflows. I contribute to the advancement of scientific rigor and accessibility by developing and applying methods that enable data to be shared, validated, and used across disciplines. Through this work, I help generate insights that support more sustainable, transparent, and equitable food systems.
+
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+\section{Education}
+\begin{tabularx}{\linewidth}{@{}l X@{}}	
+\textbf{M.S., Community Development and Applied Economics} & \hfill 2024 \\ University of Vermont \\ Burlington, Vermont \\ \\
+\textbf{Graduate Certificate, Ecological Economics} & \hfill 2024 \\ University of Vermont \\ Burlington, Vermont \\ \\
+\textbf{B.S., Environmental Science} & \hfill 2019 \\ Emphasis in Conservation Biology \\ Prescott College \\ Prescott, Arizona \\ \\ 
+\end{tabularx}
+
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE
+%----------------------------------------------------------------------------------------
+\section{Work Experience}
+\begin{jobshort}{Food Systems Data Scientist}{Sep 2024 - present}
+Food Systems Research Institute \\
+University of Vermont \\ Burlington, Vermont \\
+\end{jobshort}
+
+\begin{jobshort}{Graduate Research Assistant}{Apr 2022 - Aug 2024}
+Community Development and Applied Economics \\ 
+University of Vermont \\ Burlington, Vermont \\
+\end{jobshort}
+
+\begin{jobshort}{Rare Plant Survey Crew leader}{Apr 2022 - Aug 2022}
+Institute for Applied Ecology \\ Boise, Idaho \\
+\end{jobshort}
+
+\begin{jobshort}{Precision Restoration Technician}{May 2020 - May 2022}
+The Nature Conservancy \\ Lander, Wyoming \\
+\end{jobshort}
+
+% %Projects
+% \section{Projects}
+
+% \begin{tabularx}{\linewidth}{ @{}l r@{} }
+% \textbf{Some Project} & \hfill \href{https://some-link.com}{Link to Demo} \\[3.75pt]
+% \multicolumn{2}{@{}X@{}}{long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width}  \\
+% \end{tabularx}
+
+%----------------------------------------------------------------------------------------
+%	PUBLICATIONS
+%----------------------------------------------------------------------------------------
+\section{Publications}
+
+\textbf{Peer Reviewed}
+
+\begin{bibunit}[plainnat]
+\nocite{*}
+\putbib[../assets/pubs.bib]
+\end{bibunit}
+
+\textbf{Preprint}
+
+\begin{bibunit}[plainnat]
+\nocite{*}
+\putbib[../assets/preprints.bib]
+\end{bibunit}
+
+
+%----------------------------------------------------------------------------------------
+%	CONFERENCES
+%----------------------------------------------------------------------------------------
+\section{Conferences}
+
+\begin{bibunit}[plainnat]
+\nocite{*}
+\putbib[../assets/conferences.bib]
+\end{bibunit}
+
+\end{document}
