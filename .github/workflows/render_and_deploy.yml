@@ -11,11 +11,6 @@ on:
 permissions: read-all
 
 jobs:
-  test-coverage:
-    runs-on: ubuntu-latest
-    env:
-      GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
-
   deploy:
     runs-on: ubuntu-latest
     if: github.ref == 'refs/heads/main'
