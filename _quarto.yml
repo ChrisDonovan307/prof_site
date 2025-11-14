@@ -2,6 +2,7 @@ project:
   type: website
 
 website:
+  site-url: "https://cdonov12.w3.uvm.edu/site/"
   title: "Chris Donovan"
   page-navigation: true
   navbar:
