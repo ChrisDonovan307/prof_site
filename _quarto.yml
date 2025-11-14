@@ -34,4 +34,5 @@ format:
       # body-width: 400px
       # sidebar-width: 100px
 
-
+include-files:
+  - assets/images/*
