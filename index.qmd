@@ -48,7 +48,7 @@ title: 'Chris Donovan'
 <a href="https://www.github.com/Food-Systems-Research-Institute/SMdata/" target="_blank">
   <div class="link-block">
     <div class="project-block">
-      <img src="assets/images/SMdata.png" alt="alt-text" style="border: none !important;">
+      <img src="assets/images/smdata.png" alt="alt-text" style="border: none !important;">
       <p><b>SMdata</b> is a repository that contains data collection and cleaning for the FSRI Sustainability Metrics project. Most of the wrangling is in R, but geospatial processing is handled in Python. It is also available as an R package, which makes it easy to get access to datasets as well as convenience functions for working with the metrics.</p>
     </div>
   </div>
